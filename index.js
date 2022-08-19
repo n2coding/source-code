@@ -37,3 +37,7 @@ app.post('/writeMessage', function(req, res) {
     })
     res.send({success: 1});
 })
+
+app.listen(80, () => {
+    console.log("Listening on port 80")
+})
